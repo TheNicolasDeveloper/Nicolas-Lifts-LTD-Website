@@ -1,3 +1,15 @@
+.hyperlink:hover {
+	color: red;
+}
+
+.hyperlink:active {
+	color: red;
+}
+
+.hyperlink {
+	color: blue;
+}
+
 
 body {
 	background-color: #333333;
@@ -31,6 +43,5 @@ li a {
 }
 
 li a:hover {
-	background-color: #111111;
-	color: white;
+  background-color: #111111;
 }
