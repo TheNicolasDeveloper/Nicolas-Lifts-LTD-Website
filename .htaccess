@@ -1,2 +1,10 @@
 ErrorDocument 404 /page-not-found.html
 ErrorDocument 403 /access-forbidden.html
+		
+
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME}%.html -f
+
+RewriteRule ^(.*)$ $1.html [NC,L]
