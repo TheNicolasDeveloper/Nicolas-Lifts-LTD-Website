@@ -3,6 +3,9 @@ font-family: 'Hind Siliguri', sans-serif; - Hind Siliguri
 font-family: 'Merriweather', serif; - Merriweather
 font-family: 'Raleway', sans-serif; - Raleway
 font-family: 'Roboto', sans-serif; - Roboto */
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Merriweather:wght@300&family=Raleway:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
 
 .hyperlink:hover {
 	color: red;
