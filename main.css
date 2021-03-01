@@ -1,3 +1,9 @@
+/* / Fonts /
+font-family: 'Hind Siliguri', sans-serif; - Hind Siliguri
+font-family: 'Merriweather', serif; - Merriweather
+font-family: 'Raleway', sans-serif; - Raleway
+font-family: 'Roboto', sans-serif; - Roboto */
+
 .hyperlink:hover {
 	color: red;
 }
@@ -15,9 +21,19 @@ body {
 	background-color: #333333;
 }
 
-.textcenter {
-	text-align: center;
-	color: white;
+.merrifont {
+	font-family: 'Merriweather', serif;
+}
+
+.hindifont {
+	font-family: 'Hind Siliguri', sans-serif;
+}
+
+.raletext {
+	font-family: 'Raleway', sans-serif;
+}
+.openstext {
+	font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -40,8 +56,10 @@ li a {
   text-align: center;
   padding: 16px;
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
 }
 
 li a:hover {
   background-color: #111111;
+  color: white;
 }
